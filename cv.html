@@ -2,17 +2,16 @@
 <HTML>
 	<head>
 		<META charset = utf-8>
-		<TITLE>CV alternance</TITLE>
+		<TITLE>CV</TITLE>
 		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap" rel="stylesheet">
 
 	</head>
 	<body>
 		<div id= "page-content">
-			<div id ="content-left">
+			<div id ="content-right">
 				<h1>Lya Dalibard</h1>
 
 				<h2>Présentation</h2>
-
 				<div id="bloc-left">
 					<div class="text-bloc">
 						<p>Je suis actuellement à la recherche d'une alternance
@@ -21,38 +20,44 @@
 				</div>
 
 
+
 				<h2>Exp&eacuteriences</h2>
-
 				<div id="bloc-left">
-					<div class="text-bloc-with-date">
-						<p><strong>Stage de Javascript avec un freelancer</strong>
-						</br>Stage de découverte du javascript</br>
-						et spécialisation des languages HTML / CSS</p>
-					</div>
-					<div class ="bloc-date">
-						<p>03/05/2021 - 02/07/2021</p>
-					</div>
+					<a href="https://github.com/0l1xscr1pt/javascript-internship" target="_blank">
+						<div class="text-bloc-with-date">
+							<p class="link-right"><strong>Stage de Javascript avec un freelancer</strong>
+							</br>Stage de découverte du javascript</br>
+							et spécialisation des languages HTML / CSS</p>
+						</div>
+					</a>
+						<div class ="bloc-date">
+							<p>03/05/2021 - 02/07/2021</p>
+						</div>
 				</div>
 
 				<div id="bloc-left">
-					<div class="text-bloc-with-date">
-						<p><strong>Réalisation d'un site internet</strong>
-						</br>Création d'un site internet pour </br>le restaurant <i>Couleur Café</i> en HTML et CSS</p>
-					</div>
-					<div class ="bloc-date">
-						<p>27/09/2021 - 07/02/2022</p>
-					</div>
+					<a href="https://0l1xscr1pt.github.io/couleur-cafe-laval/" target="_blank">
+						<div class="text-bloc-with-date">
+							<p class="link-right"><strong>Réalisation d'un site internet</strong>
+							</br>Création d'un site internet pour </br>le restaurant <i>Couleur Café</i> en HTML et CSS</p>
+						</div>
+					</a>
+						<div class ="bloc-date">
+							<p>27/09/2021 - 07/02/2022</p>
+						</div>
 				</div>
 
 				<div id="bloc-left">
-					<div class="text-bloc-with-date">
-						<p><strong>Projet de fin d'étude</strong>
-						</br>Réalisation d'une attaque par brute force 
-						</br>en python</p>
-					</div>
-					<div class ="bloc-date">
-						<p>mai 2022</p>
-					</div>
+					<a href="https://github.com/0l1xscr1pt/brute_force/blob/main/brute-force.py" target="_blank">
+						<div class="text-bloc-with-date">
+							<p class="link-right"><strong>Projet de fin d'étude</strong>
+							</br>Réalisation d'une attaque par brute force 
+							</br>en python</p>
+						</div>
+					</a>
+						<div class ="bloc-date">
+							<p>mai 2022</p>
+						</div>
 				</div>
 
 				<div id="bloc-left">
@@ -68,7 +73,6 @@
 
 
 				<h2>Dipl&ocirc;mes et activit&eacute;s professionnelles</h2>
-
 				<div id ="bloc-left">
 					<div class="text-bloc-with-date">
 						<p><strong>Baccalaur&eacute;at</strong></br>Sciences Techniques Management Gestion
@@ -93,7 +97,6 @@
 			
 				
 				<h2 class="title-language">Compétences</h2>
-				
 				<div id ="bloc-langage">
 					<p class="langage">HTML / CSS</p>
 					<p class="langage">C</p>
@@ -109,7 +112,7 @@
 
 
 
-			<div id ="content-right">
+			<div id ="content-left">
 				<div id="padding-top-right">
 					<div id="bloc-right">
 						<img class="profil-picture" src="profil.jpg">
@@ -126,8 +129,10 @@
 					</div>
 
 					<div id="bloc-right">
-						<img class="picture" src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png">
-						<p>https://github.com/0l1xscr1pt</p>
+						<a href="https://github.com/0l1xscr1pt" target="_blank">
+							<img class="picture" src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png">
+							<p class="link-left">https://github.com/0l1xscr1pt</p>
+						</a>
 					</div>
 
 					<div id="bloc-right">
@@ -154,7 +159,6 @@
 					<p>Organis&eacute;e</p>
 					<p>Autonome</p>
 				</div>
-
 				
 				<div id="bloc-right-three">
 					<h2>Langues</h2>
@@ -181,12 +185,12 @@
 				flex-direction: row-reverse;
 			}
 			
-			#content-left {
+			#content-right {
 				width: 153mm;
 			}
 
 
-			#content-right {
+			#content-left {
 				background-color: #1f163d;
 				height: 305mm;
 				width: 66mm;	
@@ -330,6 +334,30 @@
 				width: 180px;
 				margin-bottom: 20px;
 			}
+
+			a {
+				display: flex;
+				align-items: center;
+				text-decoration: none;
+			}
+
+			p.link-left {
+				color: white;
+			}
+
+			p.link-left:hover {
+				text-decoration:underline;
+			}
+
+
+			p.link-right {
+				color: black;
+			}
+
+			p.link-right:hover {
+				text-decoration:underline;
+			}
+
 
 			#bloc-right p, #bloc-right-two p, #bloc-right-three p {
 				margin-left: 13px;
