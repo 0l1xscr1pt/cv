@@ -25,7 +25,7 @@ body {
 .my_picture {
     width: 190px;
     padding-top: 8px;
-    margin-bottom: -10px;
+    margin-bottom: -15px;
     border-radius: 58% 42% 54% 46% / 48% 63% 37% 52% ;
 }
 
@@ -34,13 +34,19 @@ body {
     padding: 3px 10px 5px 0;
 }
 
-.qrcode_github_logo:hover{
-    border: 2px rgb(150, 215, 255) solid;
-    border-radius: 10px;
+.link-github {
+    color: white;
+    cursor: pointer;
 }
 
-.qr_code {
-    height: 50px;
+.codewars {
+    width: 160px;
+    margin: 5px 0 0 -7px;
+    cursor: pointer;
+}
+
+ul .box1 {
+    padding-left: 7px;
 }
 
 .box1 {
@@ -57,7 +63,7 @@ body {
 }
 
 .box-padding-bottom ul {
-    margin-bottom: 45px;
+    margin-bottom: 37px;
 }
 
 li {
@@ -107,7 +113,7 @@ li {
 
 h1 {
     margin: 3px 0 0 0;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 h2 {
