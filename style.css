@@ -1,5 +1,7 @@
 body {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    width: 780px;
+    height: 907px;
 }
 
 .contain-all {
@@ -11,8 +13,8 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 220px;
-    height: 900px;
+    width: 230px;
+    height: 907px;
     background-color: rgb(15, 9, 47);
 }
 
@@ -35,6 +37,7 @@ body {
 }
 
 .link-github {
+    width: 50px;
     color: white;
     cursor: pointer;
 }
@@ -43,10 +46,6 @@ body {
     width: 160px;
     margin: 5px 0 0 -7px;
     cursor: pointer;
-}
-
-ul .box1 {
-    padding-left: 7px;
 }
 
 .box1 {
@@ -63,7 +62,7 @@ ul .box1 {
 }
 
 .box-padding-bottom ul {
-    margin-bottom: 37px;
+    margin: 0 10px 37px 0;
 }
 
 li {
@@ -84,7 +83,7 @@ li {
 
 .jauge-complet {
     border-radius: 50px;
-    margin-left: 22px;
+    margin-left: 27px;
     background: linear-gradient(45deg, #ea00ff, #00d9ff);
 }
 
@@ -108,7 +107,7 @@ li {
     background-color:#eff7ff;
     padding-left: 8px;
     width: 550px;
-    height: 900px;
+    height: 907px;
 }
 
 h1 {
