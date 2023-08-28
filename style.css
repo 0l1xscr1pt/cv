@@ -11,8 +11,9 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 230px;
+    width: 215px;
     height: 907px;
+    padding: 0 5px 0 5px;
     background-color: rgb(15, 9, 47);
 }
 
@@ -42,7 +43,7 @@ body {
 
 .codewars {
     width: 160px;
-    margin: 5px 0 0 -7px;
+    margin: 5px 0 0 -5px;
     cursor: pointer;
 }
 
