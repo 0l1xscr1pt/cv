@@ -14,7 +14,7 @@ body {
 
 .container-left {
     flex: 30% 0;
-    min-height: 100%;
+    min-height: 80%;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,13 @@ body {
 }
 
 li {
+    font-size: 1.8vh;
     list-style: none;
+}
+
+p {
+    margin-top: 1em;
+    font-size: 1.8vh;
 }
 
 a {
@@ -51,6 +57,10 @@ a:hover {
     text-decoration: underline;
     text-decoration-color: rgb(150, 215, 255);
     text-decoration-thickness: 3px;
+}
+
+.codewars {
+    width: 90%;
 }
 
 .container-left .bloc-hover:hover {
@@ -73,10 +83,15 @@ a:hover {
 
 .box-one {
     display: flex;
+    align-items: center;
 }
 
 .box-one:not(:last-child) {
     margin-bottom: 0.8vh;
+}
+
+.link-github {
+    font-size: 2vh;
 }
 
 .github-hover a:hover {
@@ -176,16 +191,16 @@ a:hover {
 }
 
 h1 {
-    font-size: 1.7em;
+    font-size: 2.5vh;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2.3vh;
     margin-right: 1em;
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 2em;
 }
 
 .epitech-logo {
@@ -340,10 +355,10 @@ img {
 
 @keyframes mini-icon {
     from {
-        height: 0em;
+        height: 0vh;
     }
   
     to {
-        height: 2em;
+        height: 2vh;
     }
 }
