@@ -194,7 +194,7 @@ h3 {
     animation-delay: 1s;
 }
 
-.box-right-two {
+.bloc-two {
     display: flex;
     justify-content: space-between;
 }
@@ -247,6 +247,7 @@ h3 {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 0 1vh 0 1vh;
     cursor: url('black_paw.png'), auto;
 }
